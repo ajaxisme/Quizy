@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
-import Title from './components/TitleComponent';
-import OuterLayout from './components/OuterLayoutComponent';
+import MainLayout from './components/MainLayoutComponent';
 
 class App extends Component {
   render() {
     return (
-      <OuterLayout />
+      <MainLayout />
     );
   }
 }
